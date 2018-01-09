@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72150BC82004D5350056EEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72150BC72004D5350056EEE1 /* AppDelegate.m */; };
+		72150BCB2004D5350056EEE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72150BCA2004D5350056EEE1 /* ViewController.m */; };
+		72150BCE2004D5350056EEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72150BCC2004D5350056EEE1 /* Main.storyboard */; };
+		72150BD02004D5350056EEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72150BCF2004D5350056EEE1 /* Assets.xcassets */; };
+		72150BD32004D5350056EEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72150BD12004D5350056EEE1 /* LaunchScreen.storyboard */; };
+		72150BD62004D5350056EEE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72150BD52004D5350056EEE1 /* main.m */; };
+		72150BE02004D5350056EEE1 /* ZJColorLoggerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72150BDF2004D5350056EEE1 /* ZJColorLoggerDemoTests.m */; };
+		72150BEB2004D5350056EEE1 /* ZJColorLoggerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72150BEA2004D5350056EEE1 /* ZJColorLoggerDemoUITests.m */; };
+		72150BFB2004D5A60056EEE1 /* ZJColorLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 72150BFA2004D5A60056EEE1 /* ZJColorLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72150BDC2004D5350056EEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72150BBB2004D5350056EEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72150BC22004D5350056EEE1;
+			remoteInfo = ZJColorLoggerDemo;
+		};
+		72150BE72004D5350056EEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72150BBB2004D5350056EEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72150BC22004D5350056EEE1;
+			remoteInfo = ZJColorLoggerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72150BC32004D5350056EEE1 /* ZJColorLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJColorLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72150BC62004D5350056EEE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72150BC72004D5350056EEE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72150BC92004D5350056EEE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72150BCA2004D5350056EEE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72150BCD2004D5350056EEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72150BCF2004D5350056EEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72150BD22004D5350056EEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72150BD42004D5350056EEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72150BD52004D5350056EEE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72150BDB2004D5350056EEE1 /* ZJColorLoggerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJColorLoggerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72150BDF2004D5350056EEE1 /* ZJColorLoggerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJColorLoggerDemoTests.m; sourceTree = "<group>"; };
+		72150BE12004D5350056EEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72150BE62004D5350056EEE1 /* ZJColorLoggerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJColorLoggerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72150BEA2004D5350056EEE1 /* ZJColorLoggerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJColorLoggerDemoUITests.m; sourceTree = "<group>"; };
+		72150BEC2004D5350056EEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72150BF92004D5A60056EEE1 /* ZJColorLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJColorLogger.h; sourceTree = "<group>"; };
+		72150BFA2004D5A60056EEE1 /* ZJColorLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJColorLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72150BC02004D5350056EEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72150BD82004D5350056EEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72150BE32004D5350056EEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72150BBA2004D5350056EEE1 = {
+			isa = PBXGroup;
+			children = (
+				72150BC52004D5350056EEE1 /* ZJColorLoggerDemo */,
+				72150BDE2004D5350056EEE1 /* ZJColorLoggerDemoTests */,
+				72150BE92004D5350056EEE1 /* ZJColorLoggerDemoUITests */,
+				72150BC42004D5350056EEE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72150BC42004D5350056EEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72150BC32004D5350056EEE1 /* ZJColorLoggerDemo.app */,
+				72150BDB2004D5350056EEE1 /* ZJColorLoggerDemoTests.xctest */,
+				72150BE62004D5350056EEE1 /* ZJColorLoggerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72150BC52004D5350056EEE1 /* ZJColorLoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				72150BF82004D5A60056EEE1 /* ZJColorLogger */,
+				72150BC62004D5350056EEE1 /* AppDelegate.h */,
+				72150BC72004D5350056EEE1 /* AppDelegate.m */,
+				72150BC92004D5350056EEE1 /* ViewController.h */,
+				72150BCA2004D5350056EEE1 /* ViewController.m */,
+				72150BCC2004D5350056EEE1 /* Main.storyboard */,
+				72150BCF2004D5350056EEE1 /* Assets.xcassets */,
+				72150BD12004D5350056EEE1 /* LaunchScreen.storyboard */,
+				72150BD42004D5350056EEE1 /* Info.plist */,
+				72150BD52004D5350056EEE1 /* main.m */,
+			);
+			path = ZJColorLoggerDemo;
+			sourceTree = "<group>";
+		};
+		72150BDE2004D5350056EEE1 /* ZJColorLoggerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				72150BDF2004D5350056EEE1 /* ZJColorLoggerDemoTests.m */,
+				72150BE12004D5350056EEE1 /* Info.plist */,
+			);
+			path = ZJColorLoggerDemoTests;
+			sourceTree = "<group>";
+		};
+		72150BE92004D5350056EEE1 /* ZJColorLoggerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72150BEA2004D5350056EEE1 /* ZJColorLoggerDemoUITests.m */,
+				72150BEC2004D5350056EEE1 /* Info.plist */,
+			);
+			path = ZJColorLoggerDemoUITests;
+			sourceTree = "<group>";
+		};
+		72150BF82004D5A60056EEE1 /* ZJColorLogger */ = {
+			isa = PBXGroup;
+			children = (
+				72150BF92004D5A60056EEE1 /* ZJColorLogger.h */,
+				72150BFA2004D5A60056EEE1 /* ZJColorLogger.m */,
+			);
+			path = ZJColorLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72150BC22004D5350056EEE1 /* ZJColorLoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72150BEF2004D5350056EEE1 /* Build configuration list for PBXNativeTarget "ZJColorLoggerDemo" */;
+			buildPhases = (
+				72150BBF2004D5350056EEE1 /* Sources */,
+				72150BC02004D5350056EEE1 /* Frameworks */,
+				72150BC12004D5350056EEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJColorLoggerDemo;
+			productName = ZJColorLoggerDemo;
+			productReference = 72150BC32004D5350056EEE1 /* ZJColorLoggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72150BDA2004D5350056EEE1 /* ZJColorLoggerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72150BF22004D5350056EEE1 /* Build configuration list for PBXNativeTarget "ZJColorLoggerDemoTests" */;
+			buildPhases = (
+				72150BD72004D5350056EEE1 /* Sources */,
+				72150BD82004D5350056EEE1 /* Frameworks */,
+				72150BD92004D5350056EEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72150BDD2004D5350056EEE1 /* PBXTargetDependency */,
+			);
+			name = ZJColorLoggerDemoTests;
+			productName = ZJColorLoggerDemoTests;
+			productReference = 72150BDB2004D5350056EEE1 /* ZJColorLoggerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72150BE52004D5350056EEE1 /* ZJColorLoggerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72150BF52004D5350056EEE1 /* Build configuration list for PBXNativeTarget "ZJColorLoggerDemoUITests" */;
+			buildPhases = (
+				72150BE22004D5350056EEE1 /* Sources */,
+				72150BE32004D5350056EEE1 /* Frameworks */,
+				72150BE42004D5350056EEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72150BE82004D5350056EEE1 /* PBXTargetDependency */,
+			);
+			name = ZJColorLoggerDemoUITests;
+			productName = ZJColorLoggerDemoUITests;
+			productReference = 72150BE62004D5350056EEE1 /* ZJColorLoggerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72150BBB2004D5350056EEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zorajiang;
+				TargetAttributes = {
+					72150BC22004D5350056EEE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					72150BDA2004D5350056EEE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72150BC22004D5350056EEE1;
+					};
+					72150BE52004D5350056EEE1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72150BC22004D5350056EEE1;
+					};
+				};
+			};
+			buildConfigurationList = 72150BBE2004D5350056EEE1 /* Build configuration list for PBXProject "ZJColorLoggerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72150BBA2004D5350056EEE1;
+			productRefGroup = 72150BC42004D5350056EEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72150BC22004D5350056EEE1 /* ZJColorLoggerDemo */,
+				72150BDA2004D5350056EEE1 /* ZJColorLoggerDemoTests */,
+				72150BE52004D5350056EEE1 /* ZJColorLoggerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72150BC12004D5350056EEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72150BD32004D5350056EEE1 /* LaunchScreen.storyboard in Resources */,
+				72150BD02004D5350056EEE1 /* Assets.xcassets in Resources */,
+				72150BCE2004D5350056EEE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72150BD92004D5350056EEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72150BE42004D5350056EEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72150BBF2004D5350056EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72150BCB2004D5350056EEE1 /* ViewController.m in Sources */,
+				72150BFB2004D5A60056EEE1 /* ZJColorLogger.m in Sources */,
+				72150BD62004D5350056EEE1 /* main.m in Sources */,
+				72150BC82004D5350056EEE1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72150BD72004D5350056EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72150BE02004D5350056EEE1 /* ZJColorLoggerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72150BE22004D5350056EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72150BEB2004D5350056EEE1 /* ZJColorLoggerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72150BDD2004D5350056EEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72150BC22004D5350056EEE1 /* ZJColorLoggerDemo */;
+			targetProxy = 72150BDC2004D5350056EEE1 /* PBXContainerItemProxy */;
+		};
+		72150BE82004D5350056EEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72150BC22004D5350056EEE1 /* ZJColorLoggerDemo */;
+			targetProxy = 72150BE72004D5350056EEE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72150BCC2004D5350056EEE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72150BCD2004D5350056EEE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72150BD12004D5350056EEE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72150BD22004D5350056EEE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72150BED2004D5350056EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72150BEE2004D5350056EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72150BF02004D5350056EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZJColorLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorajiang.ZJColorLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72150BF12004D5350056EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZJColorLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorajiang.ZJColorLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72150BF32004D5350056EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJColorLoggerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorajiang.ZJColorLoggerDemo.ZJColorLoggerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJColorLoggerDemo.app/ZJColorLoggerDemo";
+			};
+			name = Debug;
+		};
+		72150BF42004D5350056EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJColorLoggerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorajiang.ZJColorLoggerDemo.ZJColorLoggerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJColorLoggerDemo.app/ZJColorLoggerDemo";
+			};
+			name = Release;
+		};
+		72150BF62004D5350056EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJColorLoggerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorajiang.ZJColorLoggerDemo.ZJColorLoggerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJColorLoggerDemo;
+			};
+			name = Debug;
+		};
+		72150BF72004D5350056EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJColorLoggerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zorajiang.ZJColorLoggerDemo.ZJColorLoggerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJColorLoggerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72150BBE2004D5350056EEE1 /* Build configuration list for PBXProject "ZJColorLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72150BED2004D5350056EEE1 /* Debug */,
+				72150BEE2004D5350056EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72150BEF2004D5350056EEE1 /* Build configuration list for PBXNativeTarget "ZJColorLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72150BF02004D5350056EEE1 /* Debug */,
+				72150BF12004D5350056EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72150BF22004D5350056EEE1 /* Build configuration list for PBXNativeTarget "ZJColorLoggerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72150BF32004D5350056EEE1 /* Debug */,
+				72150BF42004D5350056EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72150BF52004D5350056EEE1 /* Build configuration list for PBXNativeTarget "ZJColorLoggerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72150BF62004D5350056EEE1 /* Debug */,
+				72150BF72004D5350056EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72150BBB2004D5350056EEE1 /* Project object */;
+}
