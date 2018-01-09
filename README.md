@@ -14,11 +14,11 @@ GitHub地址: [https://github.com/robbiehanson/XcodeColors](https://github.com/r
 
 
 ### XcodeColors规则
-在终端中通过\033来设置打印文字的背景色和前景色 **\033[前景色;背景色m** + **字符串** + **[0m** ，例如：
+在终端中通过\033来设置打印文字的背景色和前景色 <font color=#ff0000 size=3>**\033[前景色;背景色m**</font> + <font color=#ff0000 size=3>**字符串**</font> + <font color=#ff0000 size=3>**[0m**</font> ，例如：
 
 ![Python终端打印效果](./Doc/images/PythonPrint.png)
 
-而XcodeColors规则类似，**\033[fg前景色;** + **\033[bg背景色;** + **字符串** + **\033[**;
+而XcodeColors规则类似，<font color=#ff0000 size=3>**\033[fg前景色;**</font> + <font color=#ff0000 size=3>**\033[bg背景色;**</font> + <font color=#ff0000 size=3>**字符串**</font> + <font color=#ff0000 size=3>**\033[**</font>;
 
 ```objective-c
 #define XcodeRedColorLogExample(fmt, ...) NSLog((@"\033[fg255,0,0;" fmt @"\033[;"), ##__VA_ARGS__)
