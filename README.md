@@ -1,6 +1,6 @@
-##基于XcodeColors的ColorLogger
+## 基于XcodeColors的ColorLogger
 
-###XcodeColors
+### XcodeColors
 
 XcodeColors是一个Xcode插件，支持对控制台信息进行着色。对于iOS开发调试来说，可以利用这个功能对一些特定模块、重要信息进行着色，提升定位日志的速度。
 
@@ -13,7 +13,7 @@ GitHub地址: [https://github.com/robbiehanson/XcodeColors](https://github.com/r
 如果运行TestXcodeColors没有看到上述效果，建议对Xcode自签名或者在plist里写入UUID。
 
 
-###XcodeColors规则
+### XcodeColors规则
 在终端中通过\033来设置打印文字的背景色和前景色 **\033[前景色;背景色m** + **字符串** + **[0m** ，例如：
 
 ![Python终端打印效果](./Doc/images/PythonPrint.png)
@@ -26,7 +26,7 @@ GitHub地址: [https://github.com/robbiehanson/XcodeColors](https://github.com/r
 
 
 
-###使用ColorLogger
+### 使用ColorLogger
 
 ColorLogger是基于XcodeColors将一些包含特定标示的（比如日志level、关键字）的日志按不同的颜色打印。
 
@@ -61,10 +61,11 @@ GitHub地址：[https://github.com/zorajiang/ZJColorLogger](https://github.com/z
 ```
 
 控制台输出为：
+
 ![ColorLogger控制台输出](./Doc/images/ColorLoggerResult.png)
 
 
-###如何自定义Log颜色
+### 如何自定义Log颜色
 - 增加一个ZJColorLogFlag，比如将重要的IAP信息定义为 ZJColorLogFlagIAP 或者  ZJColorLogFlagRed
 
 ```objective-c
